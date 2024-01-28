@@ -1,0 +1,73 @@
+:root{
+  --primary:#6D2932;
+  --primary-dark:#561C24;
+  --primary-light:#C7B7A3;
+  --primary-text: #fff;
+}
+
+html{
+  background-color: var(--primary);
+}
+
+h1{
+  font-size: 24px;
+  margin: 0;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+  padding: 8px;
+}
+
+h2{
+  font-size: 18px;
+  color: var(--primary-text);
+}
+
+.body {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.player{
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-text);
+  color: var(--primary-text);
+}
+
+.score {
+  padding: 0;
+  font-size: small;
+  font-weight: bold;
+  background-color: var(--primary-dark);
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: var(--primary)
+}
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+}
+.button:hover{
+  background-color: var(--primary-light);
+}
